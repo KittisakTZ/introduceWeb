@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CAB59D; /* สีพื้นหลัง */
+    margin: 0;
+    padding: 0;
+    color: white; /* สีตัวหนังสือ */
+}
+
+header {
+    background-color: #4A4022; /* สีพื้นหลังของ header */
+    color: white; /* สีตัวหนังสือของ header */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.profile-container {
+    text-align: center;
+    background-color: #9F897A; /* สีพื้นหลังของเนื้อหา */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.student-id-container {
+    display: flex; /* ใช้ Flexbox เพื่อจัดเรียงในแนวนอน */
+    justify-content: center; /* จัดกลาง */
+    margin: 20px 0; /* ระยะห่างด้านบนและล่าง */
+}
+
+.student-id-box {
+    background-color: #6E402D; /* สีพื้นหลังของกล่อง */
+    color: white; /* สีตัวหนังสือ */
+    padding: 15px; /* ระยะห่างภายในกล่อง */
+    border-radius: 5px; /* มุมมน */
+    margin: 0 10px; /* ระยะห่างระหว่างกล่อง */
+    flex: 1; /* ทำให้กล่องมีขนาดเท่ากัน */
+    max-width: 150px; /* กำหนดขนาดสูงสุดของกล่อง */
+}
+
+.profile-container img {
+    width: 200%; /* ปรับให้กว้าง 100% ของ container */
+    max-width: 250px; /* กำหนดขนาดสูงสุดของรูปภาพ */
+    height: auto; /* ให้รักษาสัดส่วนของรูปภาพ */
+    border-radius: 50%; /* ทำให้เป็นรูปวงกลม */
+    margin-bottom: 10px;
+}
+
+
+.content-container {
+    text-align: left; /* ปรับเนื้อหาให้อยู่ซ้ายเพื่อให้อ่านง่าย */
+    background-color: #9F897A; /* สีพื้นหลังของเนื้อหา */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    width: 60%;
+    color: white; /* สีตัวหนังสือในเนื้อหา */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #79664e; /* สีของหัวข้อใหญ่ */
+    border-bottom: 2px solid #AF9F8C; /* เส้นคั่นใต้หัวข้อ */
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+strong {
+    color: #796a55; /* สีของหัวข้อย่อย */
+}
+
+button {
+    background-color: #6E402D; /* สีของปุ่ม */
+    color: white; /* สีตัวหนังสือของปุ่ม */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #AB803B; /* สีของปุ่มเมื่อ hover */
+}
+
+@media (max-width: 768px) {
+    .profile-container, .content-container {
+        width: 90%; /* ปรับขนาดให้เหมาะสมกับอุปกรณ์มือถือ */
+    }
+}
