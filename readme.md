@@ -21,5 +21,6 @@
     - /portfolio
         - /Kittisakportfolio.html
         - /Pakpoomportfolio.html
+    - /index.html
     - /readme.md
     - /style.css
